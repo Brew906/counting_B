@@ -5,6 +5,7 @@ micbrewe@uat.edu-->
 <html>
     <head>
         <script src="code.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css" />
         <title>counting_B's</title>
      </head>
     <body>
@@ -15,14 +16,14 @@ micbrewe@uat.edu-->
             press to count how many times you used the Letter "B"
         </h1>
         <br>
-        <div id = "phraseInfo">Amount of B's shown Here</div>
+        <div class="d1" id = "phraseInfo">Amount of B's shown Here</div>
         <br>
         <br>
-        <form onsubmit="return false">
-         Input your words here:   <input type="text" id="inputWordsToCount"><br>
-         <input type="submit" onclick="varChangePhrase()">
+        <form class="c1" onsubmit="return false">
+         Input your words here:   <input type="text" id="inputWordsToCount"><br><br>
+         <input  class="lgbutton" type="submit" onclick="varChangePhrase()">
         </form>
         <br>
-        <button onclick="displayInfo()">press to disply number of times "B" was used</button>
+        <button class="lgbutton" onclick="displayInfo()">press to disply number of times "B" was used</button>
     </body>
 </html>
